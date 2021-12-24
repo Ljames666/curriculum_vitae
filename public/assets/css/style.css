@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap");
+body {
+  font-family: "Roboto", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+body,
+#header,
+.bg-black {
+  background-color: black;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#header a {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.801);
+  font-size: 1.3rem;
+}
+
+#header a:hover {
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+
+#logo {
+  width: 15rem;
+}
+
+#main {
+  padding-top: 7rem;
+}
+#main #james {
+  width: 40rem;
+}
+
+#about,
+#projects,
+#contact {
+  background-color: #fff;
+}
+#cardIntro {
+  background-color: black;
+  width: 40rem;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#inputMessage2 {
+  height: 15rem;
+}
+
+#address {
+  font-size: 1.5rem;
+}
+
+#skills {
+  background-image: url("../images/wallpaper-celular4k-Preto-colorindonuvens.jpg");
+  background-attachment: fixed;
+}
+
+.bdr-t {
+  border-top: 1px solid rgb(78, 77, 77);
+}
