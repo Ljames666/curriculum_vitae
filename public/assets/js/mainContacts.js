@@ -5,7 +5,7 @@ api
   .then((result) => {
     console.log(result.data);
     result.data.forEach((add) => {
-      address.innerHTML = `<p> Rua ${add.street}, ${add.number} <br> ${add.city} - ${add.state} | ${add.country}</p>`;
+      address.innerHTML = `<p> Rua ${add.street}, ${add.number} | ${add.city} - ${add.state} | ${add.country}</p>`;
     });
   })
   .catch((error) => {
