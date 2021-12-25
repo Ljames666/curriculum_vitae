@@ -45,6 +45,13 @@ const createContact = () => {
       message: message,
       user_id: user,
     })
-    .then((result) => console.log(result))
+    .then((result) => {
+      console.log(result);
+      name = "";
+      email = "";
+      phone = "";
+      message = "";
+      user = "";
+    })
     .catch((error) => console.log(error));
 };

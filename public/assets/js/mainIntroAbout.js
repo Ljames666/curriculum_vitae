@@ -47,7 +47,7 @@ const cardPrint = (array) => {
         </div>
              `;
 
-    abstract.innerHTML = `<div><p class="h1 mt-2 mb-2">${user.abstract}</p></div>`;
+    abstract.innerHTML = `<div><p class="h1 ms-4 mt-2 mb-2">${user.abstract}</p></div>`;
   });
 };
 
